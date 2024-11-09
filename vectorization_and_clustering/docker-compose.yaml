@@ -1,0 +1,13 @@
+services:  
+  vc:
+    platform: linux/amd64
+    build: 
+      context: ./
+      dockerfile: Dockerfile.st
+    env_file:
+      - .env
+    environment:
+      TZ: ${TZ}
+    volumes:
+      - ./:/tmp/work
+    tty: true

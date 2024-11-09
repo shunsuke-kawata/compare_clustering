@@ -1,0 +1,17 @@
+services:
+  ul:
+    platform: linux/amd64
+    build: 
+      context: ./
+      dockerfile: Dockerfile.ul
+    container_name: 'yolo-test'
+    env_file:
+      - .env
+    environment:
+      TZ: ${TZ}
+    volumes:
+      - ./:/tmp/work
+    ports:
+      - "${PORT}:${PORT}" 
+    tty: true
+  
