@@ -1,0 +1,422 @@
+[
+    {
+        "path": "./result/1_bottle.jpg",
+        "filename": "1_bottle.jpg",
+        "caption": "A plastic bottle with a green cap, possibly containing a cleaning product or liquid soap, given the shape and size. The label has red text, and the overall color of the bottle is light green with a rounded cap designed for easy dispensing.",
+        "object_name": "Cleaning Product Bottle"
+    },
+    {
+        "path": "./result/2_bottle.jpg",
+        "filename": "2_bottle.jpg",
+        "caption": "A large 2-liter plastic bottle filled with a brownish liquid, likely green tea or a similar beverage. It has a green label with Japanese characters, indicating it may be a Japanese green tea product.",
+        "object_name": "Green Tea Bottle"
+    },
+    {
+        "path": "./result/3_bottle.jpg",
+        "filename": "3_bottle.jpg",
+        "caption": "A similar 2-liter plastic bottle with a green label and a transparent liquid. The label has Japanese characters, and this might be a variant of green tea or flavored water.",
+        "object_name": "Green Tea or Flavored Water Bottle"
+    },
+    {
+        "path": "./result/4_bottle.jpg",
+        "filename": "4_bottle.jpg",
+        "caption": "A dark-colored glass bottle with a label featuring Japanese characters and an image of a lemon, suggesting it could be a concentrated citrus-flavored drink or a soy sauce variant.",
+        "object_name": "Concentrated Citrus Drink or Soy Sauce Bottle"
+    },
+    {
+        "path": "./result/5_bottle.jpg",
+        "filename": "5_bottle.jpg",
+        "caption": "A large plastic bottle with a green label, partially obscured by another object. It appears to be the same type of green tea bottle as in previous images.",
+        "object_name": "Green Tea Bottle"
+    },
+    {
+        "path": "./result/6_bottle.jpg",
+        "filename": "6_bottle.jpg",
+        "caption": "A large plastic bottle with a green label and cap, likely containing green tea, as seen in previous images. The label includes Japanese text, indicating it's a Japanese brand product.",
+        "object_name": "Green Tea Bottle"
+    },
+    {
+        "path": "./result/7_bottle.jpg",
+        "filename": "7_bottle.jpg",
+        "caption": "Another large plastic bottle of green tea with a green label. The bottle is partially obscured by a white cylindrical container with a yellow cap, likely a spray or lotion bottle.",
+        "object_name": "Green Tea Bottle and Lotion/Spray Bottle"
+    },
+    {
+        "path": "./result/8_bottle.jpg",
+        "filename": "8_bottle.jpg",
+        "caption": "A close-up of a large plastic bottle with a green label and cap, similar to other green tea bottles in previous images. It contains a brownish liquid, possibly indicating tea.",
+        "object_name": "Green Tea Bottle"
+    },
+    {
+        "path": "./result/9_bottle.jpg",
+        "filename": "9_bottle.jpg",
+        "caption": "A clear plastic bottle with a blue cap, labeled 'Crystal Geyser,' suggesting it contains bottled water. The bottle is half-filled, and the label includes English text.",
+        "object_name": "Bottled Water"
+    },
+    {
+        "path": "./result/10_bottle.jpg",
+        "filename": "10_bottle.jpg",
+        "caption": "Another clear plastic bottle with a blue cap, labeled 'Crystal Geyser,' similar to the previous image. This bottle appears to be full of water.",
+        "object_name": "Bottled Water"
+    },{
+        "path": "./result/11_bottle.jpg",
+        "filename": "11_bottle.jpg",
+        "caption": "Two plastic bottles with blue caps, likely bottled water, based on the clear content and typical design. The bottles appear identical and are positioned close together.",
+        "object_name": "Bottled Water"
+    },
+    {
+        "path": "./result/12_handbag.jpg",
+        "filename": "12_handbag.jpg",
+        "caption": "A minimalist white plastic tote bag with a simple oval-shaped cutout handle. It has two black straps, giving it a modern, functional appearance, likely used for carrying personal items or groceries.",
+        "object_name": "Plastic Tote Bag"
+    },
+    {
+        "path": "./result/13_laptop.jpg",
+        "filename": "13_laptop.jpg",
+        "caption": "An open laptop displaying a spreadsheet, indicating it is being used for work or data entry. The keyboard layout and icons suggest it may be a Japanese layout.",
+        "object_name": "Laptop"
+    },
+    {
+        "path": "./result/14_bottle.jpg",
+        "filename": "14_bottle.jpg",
+        "caption": "A plastic bottle with a green label, containing a brownish liquid, likely a bottle of Japanese green tea based on the design and labeling.",
+        "object_name": "Green Tea Bottle"
+    },
+    {
+        "path": "./result/15_scissors.jpg",
+        "filename": "15_scissors.jpg",
+        "caption": "A pair of scissors with white and light green handles, positioned on a flat surface. The design suggests it is a standard pair of household scissors.",
+        "object_name": "Scissors"
+    },
+    {
+        "path": "./result/16_tv.jpg",
+        "filename": "16_tv.jpg",
+        "caption": "A computer monitor or TV screen displaying various images of bottled beverages, possibly related to a search for drink products. The screen is surrounded by a keyboard and cables.",
+        "object_name": "Monitor or TV Screen"
+    },
+    {
+        "path": "./result/17_bottle.jpg",
+        "filename": "17_bottle.jpg",
+        "caption": "A large plastic bottle with a green label, filled with a brown liquid, positioned on the floor. The shape and labeling suggest it contains Japanese green tea.",
+        "object_name": "Green Tea Bottle"
+    },
+    {
+        "path": "./result/18_cell phone.jpg",
+        "filename": "18_cell phone.jpg",
+        "caption": "A smartphone with a black case lying face up on a flat surface. The screen is off, indicating it is not in use at the moment.",
+        "object_name": "Smartphone"
+    },
+    {
+        "path": "./result/19_cup.jpg",
+        "filename": "19_cup.jpg",
+        "caption": "A brown coffee mug positioned next to a laptop, likely used for drinking beverages during work. The mug has a handle, making it convenient for holding hot drinks.",
+        "object_name": "Coffee Mug"
+    },
+    {
+        "path": "./result/20_laptop.jpg",
+        "filename": "20_laptop.jpg",
+        "caption": "A laptop opened to a spreadsheet application, possibly being used for data analysis or work tasks. The laptop has a Japanese keyboard layout and is connected to a cable.",
+        "object_name": "Laptop"
+    },
+    {
+        "path": "./result/21_scissors.jpg",
+        "filename": "21_scissors.jpg",
+        "caption": "A pair of scissors with white and light green handles. The design suggests they are for general household or office use.",
+        "object_name": "Scissors"
+    },
+    {
+        "path": "./result/22_mouse.jpg",
+        "filename": "22_mouse.jpg",
+        "caption": "A black computer mouse, ergonomic in shape, likely used for navigating a computer screen. The mouse has a simple design, ideal for general computing tasks.",
+        "object_name": "Computer Mouse"
+    },
+    {
+        "path": "./result/23_bottle.jpg",
+        "filename": "23_bottle.jpg",
+        "caption": "A green-labeled plastic bottle containing a brown liquid, typical of Japanese green tea. The label includes Japanese text.",
+        "object_name": "Green Tea Bottle"
+    },
+    {
+        "path": "./result/24_tv.jpg",
+        "filename": "24_tv.jpg",
+        "caption": "A computer monitor or TV screen showing images of bottled water and other beverages, likely part of an online search or presentation.",
+        "object_name": "Monitor or TV Screen"
+    },
+    {
+        "path": "./result/25_cup.jpg",
+        "filename": "25_cup.jpg",
+        "caption": "A brown plastic mug, likely used for hot beverages. The mug has a handle for easy gripping.",
+        "object_name": "Plastic Mug"
+    },
+    {
+        "path": "./result/26_keyboard.jpg",
+        "filename": "26_keyboard.jpg",
+        "caption": "A compact black keyboard with rounded keys, possibly wireless. The keyboard is likely used for typing on a computer or tablet.",
+        "object_name": "Keyboard"
+    },
+    {
+        "path": "./result/27_tv.jpg",
+        "filename": "27_tv.jpg",
+        "caption": "A black monitor on a desk setup, possibly used as a display screen for a desktop computer.",
+        "object_name": "Monitor"
+    },
+    {
+        "path": "./result/28_cup.jpg",
+        "filename": "28_cup.jpg",
+        "caption": "A brown mug placed on a desk near other items, possibly used for drinking coffee or tea.",
+        "object_name": "Mug"
+    },
+    {
+        "path": "./result/29_bottle.jpg",
+        "filename": "29_bottle.jpg",
+        "caption": "A clear plastic bottle with a green cap, possibly a cleaning or household product due to the simple, utilitarian design.",
+        "object_name": "Plastic Bottle (Household Product)"
+    },
+    {
+        "path": "./result/30_keyboard.jpg",
+        "filename": "30_keyboard.jpg",
+        "caption": "A black keyboard with standard rectangular keys, possibly connected to a computer setup. It has a Japanese layout.",
+        "object_name": "Keyboard"
+    },
+    {
+        "path": "./result/31_keyboard.jpg",
+        "filename": "31_keyboard.jpg",
+        "caption": "A standard black wired keyboard with rectangular keys, placed on a wooden desk. It has a Japanese layout and is connected via a cable.",
+        "object_name": "Wired Keyboard"
+    },
+    {
+        "path": "./result/32_keyboard.jpg",
+        "filename": "32_keyboard.jpg",
+        "caption": "A black keyboard paired with a black mouse on a desk. The keyboard has a Japanese layout, and the mouse is designed for general computing use.",
+        "object_name": "Keyboard and Mouse"
+    },
+    {
+        "path": "./result/33_tv.jpg",
+        "filename": "33_tv.jpg",
+        "caption": "A white monitor with a thick border, branded 'Epson,' likely used as a display screen for a computer. The monitor is turned off.",
+        "object_name": "Monitor"
+    },
+    {
+        "path": "./result/34_mouse.jpg",
+        "filename": "34_mouse.jpg",
+        "caption": "A sleek, white, curved mouse, possibly wireless, commonly used for precise navigation or design work.",
+        "object_name": "Wireless Mouse"
+    },
+    {
+        "path": "./result/35_mouse.jpg",
+        "filename": "35_mouse.jpg",
+        "caption": "A black computer mouse with a simple design, suitable for everyday use. It is ergonomically shaped.",
+        "object_name": "Computer Mouse"
+    },
+    {
+        "path": "./result/36_chair.jpg",
+        "filename": "36_chair.jpg",
+        "caption": "A black office chair with a mesh back and wheels, designed for ergonomic support during long periods of use at a desk.",
+        "object_name": "Office Chair"
+    },
+    {
+        "path": "./result/37_mouse.jpg",
+        "filename": "37_mouse.jpg",
+        "caption": "A black mouse with a simple design and ergonomic shape, suitable for general computer use.",
+        "object_name": "Computer Mouse"
+    },
+    {
+        "path": "./result/38_backpack.jpg",
+        "filename": "38_backpack.jpg",
+        "caption": "A black backpack with several compartments, decorated with a few colorful wristbands attached to the zippers. It has a rugged design, likely used for everyday carrying.",
+        "object_name": "Backpack"
+    },
+    {
+        "path": "./result/39_laptop.jpg",
+        "filename": "39_laptop.jpg",
+        "caption": "A laptop open to a coding environment, possibly being used for programming. The keyboard has a Japanese layout, and the screen shows code in an IDE.",
+        "object_name": "Laptop"
+    },
+    {
+        "path": "./result/40_backpack.jpg",
+        "filename": "40_backpack.jpg",
+        "caption": "A black backpack with a rugged design, showing wristbands and keychains attached to the zippers, making it suitable for daily or outdoor use.",
+        "object_name": "Backpack"
+    },
+    {
+        "path": "./result/41_chair.jpg",
+        "filename": "41_chair.jpg",
+        "caption": "A blue office chair with a padded seat and backrest. There is a tablet resting on the seat, indicating it may be used during work or study sessions.",
+        "object_name": "Office Chair with Tablet"
+    },
+    {
+        "path": "./result/42_chair.jpg",
+        "filename": "42_chair.jpg",
+        "caption": "A black and white office chair with armrests and a chrome base, designed for comfort and ergonomic support during long sitting periods.",
+        "object_name": "Ergonomic Office Chair"
+    },
+    {
+        "path": "./result/43_chair.jpg",
+        "filename": "43_chair.jpg",
+        "caption": "Close-up of the wheelbase of an office chair, showing black and white wheels. The design suggests it provides mobility on hard floors or carpets.",
+        "object_name": "Office Chair Base with Wheels"
+    },
+    {
+        "path": "./result/44_bottle.jpg",
+        "filename": "44_bottle.jpg",
+        "caption": "A purple and white bottle labeled 'Calpis Blend Rich Grape,' which appears to be a grape-flavored beverage. The design is bright and colorful.",
+        "object_name": "Grape-Flavored Beverage Bottle"
+    },
+    {
+        "path": "./result/45_backpack.jpeg",
+        "filename": "45_backpack.jpeg",
+        "caption": "A black backpack with multiple compartments and attached wristbands and keychains. It is practical for everyday use or travel.",
+        "object_name": "Backpack"
+    },
+    {
+        "path": "./result/46_refrigerator.jpeg",
+        "filename": "46_refrigerator.jpeg",
+        "caption": "A tall, silver refrigerator with a top freezer compartment. A chart is attached to the door with magnets, possibly indicating shared usage or maintenance schedules.",
+        "object_name": "Refrigerator with Chart"
+    },
+    {
+        "path": "./result/47_sink.jpg",
+        "filename": "47_sink.jpg",
+        "caption": "A beige sink with a faucet and soap dispenser, located in a kitchen or restroom area. The sink is clean and functional.",
+        "object_name": "Sink"
+    },
+    {
+        "path": "./result/48_keyboard.jpg",
+        "filename": "48_keyboard.jpg",
+        "caption": "A white wireless keyboard with Japanese layout keys, used for typing. The keyboard is slim and modern in design, likely used with Apple devices.",
+        "object_name": "Wireless Keyboard"
+    },
+    {
+        "path": "./result/49_keyboard.jpg",
+        "filename": "49_keyboard.jpg",
+        "caption": "A pair of white Apple wireless keyboards placed on a desk, both with Japanese layout keys. These keyboards are often used with Apple computers.",
+        "object_name": "Apple Wireless Keyboards"
+    },
+    {
+        "path": "./result/50_keyboard.jpg",
+        "filename": "50_keyboard.jpg",
+        "caption": "A black wired keyboard with Japanese layout keys, likely used in an office or workplace for typing on a desktop computer.",
+        "object_name": "Wired Keyboard"
+    },
+    {
+        "path": "./result/51_mouse.jpg",
+        "filename": "51_mouse.jpg",
+        "caption": "A white Apple Magic Mouse, sleek and minimalistic in design. Used for navigating on a computer, typically paired with Apple devices. It has a smooth, touch-sensitive surface with no visible buttons, and an Apple logo indicating the brand.",
+        "object_name": "mouse"
+    },
+    {
+        "path": "./result/52_tv.jpeg",
+        "filename": "52_tv.jpeg",
+        "caption": "A black iMac with a sleek silver base, identifiable by the Apple logo at the bottom of the screen. This desktop computer is commonly used for professional or personal tasks, with a large display that enhances user experience.",
+        "object_name": "iMac"
+    },
+    {
+        "path": "./result/53_refrigerator.jpeg",
+        "filename": "53_refrigerator.jpeg",
+        "caption": "A tall, silver refrigerator with a top freezer compartment, featuring a schedule or notes pinned on the door with magnets. It serves to keep food and beverages fresh, a common appliance in kitchens.",
+        "object_name": "refrigerator"
+    },
+    {
+        "path": "./result/54_microwave.jpg",
+        "filename": "54_microwave.jpg",
+        "caption": "A black microwave oven with multiple buttons and a digital display on the right side. It is used for heating food, with functions likely including defrosting, reheating, and cooking.",
+        "object_name": "microwave"
+    },
+    {
+        "path": "./result/55_microwave.jpeg",
+        "filename": "55_microwave.jpeg",
+        "caption": "A compact black microwave with a variety of control buttons on the front, labeled in Japanese, allowing for multiple heating options. Likely used for reheating or cooking meals quickly.",
+        "object_name": "microwave"
+    },
+    {
+        "path": "./result/56_backpack.jpeg",
+        "filename": "56_backpack.jpeg",
+        "caption": "A backpack made of durable black fabric with several pockets and compartments, decorated with wristbands and carabiners for personal items. Suitable for carrying books, electronics, or travel items.",
+        "object_name": "backpack"
+    },
+    {
+        "path": "./result/57_chair.jpeg",
+        "filename": "57_chair.jpeg",
+        "caption": "A blue cushioned office chair with a black base and wheels for mobility. Common in workspaces, it offers ergonomic support for prolonged seating.",
+        "object_name": "office chair"
+    },
+    {
+        "path": "./result/58_keyboard.jpeg",
+        "filename": "58_keyboard.jpeg",
+        "caption": "A black Dell keyboard with a full layout including a numeric keypad, featuring Japanese characters alongside English letters. Designed for desktop use, facilitating typing and data entry.",
+        "object_name": "keyboard"
+    },
+    {
+        "path": "./result/59_mouse.jpg",
+        "filename": "59_mouse.jpg",
+        "caption": "A black computer mouse with a sleek, curved design and a scroll wheel on top. Used for navigating on a computer, providing precise control and ease of use.",
+        "object_name": "mouse"
+    },
+    {
+        "path": "./result/60_chair.jpg",
+        "filename": "60_chair.jpg",
+        "caption": "A chair with a blue seat cushion and a curved backrest, often found in classrooms or offices. It has a swivel base and wheels for easy movement.",
+        "object_name": "chair"
+    },
+    {
+        "path": "./result/61_chair.jpg",
+        "filename": "61_chair.jpg",
+        "caption": "A blue office chair with a cushioned seat and backrest, mounted on a black frame with wheels. This chair is designed for comfortable seating in an office environment.",
+        "object_name": "office chair"
+    },
+    {
+        "path": "./result/62_chair.jpg",
+        "filename": "62_chair.jpg",
+        "caption": "A blue office chair featuring a cushioned backrest and seat with a sturdy black base. It is built for ergonomic seating in a workspace.",
+        "object_name": "office chair"
+    },
+    {
+        "path": "./result/63_chair.jpg",
+        "filename": "63_chair.jpg",
+        "caption": "A blue office chair with a curved backrest and adjustable black armrests, providing comfort for long hours of work.",
+        "object_name": "office chair"
+    },
+    {
+        "path": "./result/64_chair.jpg",
+        "filename": "64_chair.jpg",
+        "caption": "A simple blue chair with a metal frame and padded seat, typically used in meeting rooms or waiting areas for short-term seating.",
+        "object_name": "meeting chair"
+    },
+    {
+        "path": "./result/65_chair.jpg",
+        "filename": "65_chair.jpg",
+        "caption": "A sturdy blue chair with a metal frame, featuring a padded seat and backrest. Commonly used in waiting rooms or classrooms for casual seating.",
+        "object_name": "metal frame chair"
+    },
+    {
+        "path": "./result/66_umbrella.jpeg",
+        "filename": "66_umbrella.jpeg",
+        "caption": "A plastic umbrella with a transparent canopy and curved handle, designed for use in rainy weather. It is lightweight and often used as a disposable or emergency umbrella.",
+        "object_name": "plastic umbrella"
+    },
+    {
+        "path": "./result/67_umbrella.jpeg",
+        "filename": "67_umbrella.jpeg",
+        "caption": "A collection of umbrellas with plastic canopies and curved handles in a storage rack. These umbrellas are ideal for rainy weather and are often available for public use.",
+        "object_name": "umbrella rack"
+    },
+    {
+        "path": "./result/68_chair.jpeg",
+        "filename": "68_chair.jpeg",
+        "caption": "A blue office chair with a cushioned seat and backrest, featuring a black frame and wheels. Designed for ergonomic support in an office setting.",
+        "object_name": "office chair"
+    },
+    {
+        "path": "./result/69_chair.jpeg",
+        "filename": "69_chair.jpeg",
+        "caption": "A blue office chair with a padded backrest and seat, mounted on a black base with wheels. It provides mobility and comfort for office use.",
+        "object_name": "office chair"
+    },
+    {
+        "path": "./result/70_microwave.jpg",
+        "filename": "70_microwave.jpg",
+        "caption": "A white microwave oven with control knobs for power and time settings. Used for heating and cooking food quickly in a compact form factor, suitable for kitchens or break rooms.",
+        "object_name": "microwave oven"
+    }
+
+]

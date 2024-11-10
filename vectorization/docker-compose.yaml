@@ -1,0 +1,15 @@
+services:  
+  ve:
+    platform: linux/amd64
+    build: 
+      context: ./
+      dockerfile: Dockerfile.ve
+    container_name: 've1'
+    env_file:
+      - .env
+    environment:
+      TZ: ${TZ}
+    volumes:
+      - ./:/tmp/work
+      - ../cropped_images/results/:/tmp/work/results
+    tty: true
