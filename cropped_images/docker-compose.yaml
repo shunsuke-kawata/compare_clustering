@@ -4,7 +4,7 @@ services:
     build: 
       context: ./
       dockerfile: Dockerfile.ul
-    container_name: 'yolo-test'
+    container_name: 'ul1'
     env_file:
       - .env
     environment:
