@@ -11,7 +11,7 @@ def main():
 
     json_data_with_vector = create_json_with_vector(json_data=json_data)
     
-    with open("caption_embedding_sentence_vector.json", "w") as f:
+    with open("caption_embedding_vector.json", "w") as f:
         json.dump(json_data_with_vector, f, indent=2)
 
 if __name__ =='__main__':

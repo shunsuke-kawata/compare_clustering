@@ -2,3 +2,4 @@
 **/data/
 **/results/
 **/results_with_boxes/
+**__pycache__/
