@@ -9,6 +9,10 @@ services:
       - .env
     environment:
       TZ: ${TZ}
+    ports:
+      - "${PORT}:${PORT}" 
+    expose:
+      - ${PORT}
     volumes:
       - ./:/tmp/work
       - ../cropped_images/results/:/tmp/work/results

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クラスタリング結果ビューア</title>
+</head>
+<body>
+    <h1>クラスタリング結果ビューア</h1>
+
+    <!-- メソッド選択フォーム -->
+    <form method="POST" id="clusteringForm">
+        <label for="method">クラスタリングメソッドを選択:</label>
+        <select id="method" name="method" onchange="document.getElementById('clusteringForm').submit()">
+            {% for method in methods %}
+                <option value="{{ method }}" {% if method == selected_method %}selected{% endif %}>{{ method }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="cluster">クラスタ番号を選択:</label>
+        <select id="cluster" name="cluster" onchange="document.getElementById('clusteringForm').submit()">
+            {% for cluster in clusters %}
+                <option value="{{ cluster }}" {% if str(cluster) == str(selected_cluster) %}selected{% endif %}>{{ cluster }}</option>
+            {% endfor %}
+        </select>
+    </form>
+
+    <!-- クラスタ画像表示エリア -->
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
+        {% for image in cluster_images %}
+            <div>
+                <img src="{{ url_for('serve_image', filename=image.split('/')[-1]) }}" alt="Cluster Image" width="150" height="150">
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

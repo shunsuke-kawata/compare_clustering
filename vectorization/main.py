@@ -13,6 +13,7 @@ def main():
     
     with open("caption_embedding_vector.json", "w") as f:
         json.dump(json_data_with_vector, f, indent=2)
+    print("created result json")
 
 if __name__ =='__main__':
     main()

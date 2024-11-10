@@ -30,7 +30,7 @@ def execute_clustering_xmeans(json_data, num_clusters):
 
     for cluster_index, cluster in enumerate(clusters_by_image):
         for index in cluster:
-            json_data[index]['class_by_image_kmeans'] = cluster_index
+            json_data[index]['class_by_feature_kmeans'] = cluster_index
 
 def execute_clustering_hierarchical(json_data, num_clusters):
     # キャプションベクトルによる階層型クラスタリング
@@ -48,7 +48,7 @@ def execute_clustering_hierarchical(json_data, num_clusters):
     # クラスタリング結果を json_data に追加
     for idx, json_datum in enumerate(json_data):
         json_datum['class_by_sentence_hierarchical'] = int(sentence_clusters[idx])
-        json_datum['class_by_image_hierarchical'] = int(image_clusters[idx])
+        json_datum['class_by_feature_hierarchical'] = int(image_clusters[idx])
 
 def compare_clustering_methods(json_data, num_clusters=10):
     # json_dataをディープコピーして操作用に作成
@@ -59,10 +59,5 @@ def compare_clustering_methods(json_data, num_clusters=10):
 
     # 階層的クラスタリングによる結果を追加
     execute_clustering_hierarchical(json_data_cp, num_clusters)
-
-    # ベクトル配列を削除
-    for json_datum in json_data_cp:
-        json_datum.pop('embedding_sentence_vector', None)
-        json_datum.pop('embedding_image_vector', None)
 
     return json_data_cp,num_clusters
