@@ -1,0 +1,16 @@
+services:  
+  cl:
+    platform: linux/amd64
+    build: 
+      context: ./
+      dockerfile: Dockerfile.cl
+    container_name: 'cl1'
+    env_file:
+      - .env
+    environment:
+      TZ: ${TZ}
+    volumes:
+      - ./:/tmp/work
+      - ../cropped_images/results/:/tmp/work/results
+      - ../vectorization/caption_embedding_vector.json:/tmp/work/caption_embedding_vector.json
+    tty: true
