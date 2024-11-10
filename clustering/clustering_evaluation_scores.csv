@@ -1,0 +1,5 @@
+Metric,Silhouette Score,Davies-Bouldin Index,Calinski-Harabasz Index
+XMeans (Sentence Embeddings),0.279622168,1.0338111,8.512373818
+XMeans (Image Embeddings),0.103037163,1.681309127,4.474825556
+Hierarchical (Sentence Embeddings),0.288065358,1.164504956,9.876861314
+Hierarchical (Image Embeddings),0.103998638,1.508142751,4.973059246

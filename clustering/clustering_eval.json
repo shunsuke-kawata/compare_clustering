@@ -1,0 +1,22 @@
+{
+  "XMeans (Sentence Embeddings)": {
+    "Silhouette Score": 0.27962216829566783,
+    "Davies-Bouldin Index": 1.0338111004469548,
+    "Calinski-Harabasz Index": 8.512373818382917
+  },
+  "XMeans (Image Embeddings)": {
+    "Silhouette Score": 0.10303716309361341,
+    "Davies-Bouldin Index": 1.6813091266231588,
+    "Calinski-Harabasz Index": 4.474825556248712
+  },
+  "Hierarchical (Sentence Embeddings)": {
+    "Silhouette Score": 0.2880653582568053,
+    "Davies-Bouldin Index": 1.1645049559644318,
+    "Calinski-Harabasz Index": 9.876861313536018
+  },
+  "Hierarchical (Image Embeddings)": {
+    "Silhouette Score": 0.1039986379522226,
+    "Davies-Bouldin Index": 1.5081427508845187,
+    "Calinski-Harabasz Index": 4.973059246409457
+  }
+}

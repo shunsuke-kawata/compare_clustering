@@ -2,7 +2,8 @@
 
 ## 画像切り出しの実行
 
-```docker compose run --rm ul```
+1. ```cd cropped_images```
+1. ```docker compose run --rm ul```
 
 ## ChatGPT４で画像のキャプションを生成
 
@@ -24,4 +25,26 @@ For the "path" element, use the value ./results/ followed by the image file name
 
 1. caption.jsonに作成されたキャプションを保存する
 
-## caption.jsonから文章ベクトルを生成してクラスタリングを実行する
+## caption.jsonから文章ベクトル・画像からの特徴量ベクトルを生成する
+
+1. ```cd vectorization```
+1. ```docker compose run --rm ve```
+
+## クラスタリングの実行
+
+1. ```cd clustering```
+1. ```docker compose run --rm cl python main.py```
+
+## クラスタリング評価指標
+
+| 指標名 | どちらが良いか |
+| -- | -- |
+| Silhouette Score(シルエット) | 1に近い方が良い（大きい方が良い） | 
+| Davies-Bouldin Index(Davies-Bouldin 基準) | 小さい方が良い | 
+| Calinski-Harabasz Index(Calinski-Harabasz 基準) | 大きい方が良い | 
+
+## クラスタリングした結果をサーバから確認する
+
+1. ```cd clustering```
+1. ```docker compose up```
+1. ```http://localhost:{PORT}``` にアクセスする
