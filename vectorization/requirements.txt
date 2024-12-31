@@ -4,3 +4,7 @@ torchvision
 scikit-learn
 transformers
 sentence-transformers
+openai
+google-auth
+google-auth-httplib2
+google-api-python-client

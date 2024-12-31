@@ -1,5 +1,13 @@
 **.env
 **/data/
-**/results/
+**/results*/
 **/results_with_boxes/
+**/clustering_result_images/
+*.zip
 **__pycache__/
+**/test_data_from_pss/
+**/clustered_by_myself/
+**/no_noize/
+*.png
+*.csv
+*.json

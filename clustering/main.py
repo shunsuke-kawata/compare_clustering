@@ -1,6 +1,7 @@
 import json
 from compare_clastering import compare_clustering_methods
 import csv
+from classify_folder import classify_result
 
 def main():
     # JSONファイルのパス
@@ -32,6 +33,8 @@ def main():
         for method in methods:
             row = [method] + [evalation_dict[method][metric] for metric in metrics]
             writer.writerow(row)
+    
+    classify_result()
 
 if __name__ =='__main__':
     main()

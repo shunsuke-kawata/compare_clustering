@@ -17,4 +17,5 @@ services:
       - ./:/tmp/work
       - ../cropped_images/results/:/tmp/work/results
       - ../vectorization/caption_embedding_vector.json:/tmp/work/caption_embedding_vector.json
+      - ../cropped_images/results_20241215/:/tmp/work/test_data_from_pss/
     tty: true

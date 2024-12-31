@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # ファイルパス
 JSON_FILE_PATH = "./clustering_result.json"
-IMAGES_FOLDER_PATH = "./results/"
+FOLDER_NAME ="test_data_from_pss"
 
 # クラスタリング結果を読み込み
 with open(JSON_FILE_PATH, 'r') as file:
@@ -17,6 +17,8 @@ with open(JSON_FILE_PATH, 'r') as file:
 CLUSTER_METHODS = [
     "class_by_sentence_kmeans",
     "class_by_feature_kmeans",
+    "class_by_sentence_xmeans",
+    "class_by_feature_xmeans",
     "class_by_sentence_hierarchical",
     "class_by_feature_hierarchical"
 ]
@@ -29,15 +31,16 @@ def get_clusters(method_key):
 def get_cluster_images(method_key, cluster_id):
     # 指定されたクラスタリングメソッドとクラスタIDに属する画像のリストを取得
     return [
-        os.path.join("results", item["filename"])  # パスを相対的に指定
+        item["path"]  # パスを相対的に指定
         for item in result_json_data
         if str(item[method_key]) == str(cluster_id)
     ]
 
-@app.route("/results/<path:filename>")
-def serve_image(filename):
+@app.route(f"/{FOLDER_NAME}/<path:path>")
+def serve_image(path):
     # results フォルダ内の画像ファイルを提供
-    return send_from_directory(IMAGES_FOLDER_PATH, filename)
+    print(path)
+    return send_from_directory(FOLDER_NAME,path)
 
 @app.route("/", methods=["GET", "POST"])
 def index():

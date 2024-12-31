@@ -29,7 +29,7 @@
     <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
         {% for image in cluster_images %}
             <div>
-                <img src="{{ url_for('serve_image', filename=image.split('/')[-1]) }}" alt="Cluster Image" width="150" height="150">
+                <img src="{{ url_for('serve_image', path=image.split('/')[-1]) }}" alt="Cluster Image" width="150" height="150">
             </div>
         {% endfor %}
     </div>

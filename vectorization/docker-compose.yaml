@@ -12,4 +12,5 @@ services:
     volumes:
       - ./:/tmp/work
       - ../cropped_images/results/:/tmp/work/results
+      - ../cropped_images/results_20241215/:/tmp/work/test_data_from_pss
     tty: true

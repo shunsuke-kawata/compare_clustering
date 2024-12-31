@@ -1,7 +1,8 @@
 import json
 from create_vector import create_json_with_vector
 
-def main():
+
+def create_vec_from_json():
     # JSONファイルのパス
     json_file_path = 'caption.json'
 
@@ -14,6 +15,11 @@ def main():
     with open("caption_embedding_vector.json", "w") as f:
         json.dump(json_data_with_vector, f, indent=2)
     print("created result json")
+    
+
+def main():
+    return
+
 
 if __name__ =='__main__':
     main()

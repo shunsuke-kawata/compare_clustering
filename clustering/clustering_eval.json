@@ -1,22 +1,32 @@
 {
+  "KMeans (Sentence Embeddings)": {
+    "Silhouette Score": 0.2093061011307973,
+    "Davies-Bouldin Index": 2.0913448964986077,
+    "Calinski-Harabasz Index": 168.56346225063868
+  },
+  "KMeans (Image Embeddings)": {
+    "Silhouette Score": 0.07329321365346007,
+    "Davies-Bouldin Index": 2.821185115740097,
+    "Calinski-Harabasz Index": 95.75389839020286
+  },
   "XMeans (Sentence Embeddings)": {
-    "Silhouette Score": 0.27962216829566783,
-    "Davies-Bouldin Index": 1.0338111004469548,
-    "Calinski-Harabasz Index": 8.512373818382917
+    "Silhouette Score": 0.19617311193490689,
+    "Davies-Bouldin Index": 2.1805131543783016,
+    "Calinski-Harabasz Index": 148.972715628356
   },
   "XMeans (Image Embeddings)": {
-    "Silhouette Score": 0.10303716309361341,
-    "Davies-Bouldin Index": 1.6813091266231588,
-    "Calinski-Harabasz Index": 4.474825556248712
+    "Silhouette Score": 0.0799323857120268,
+    "Davies-Bouldin Index": 2.714210779649857,
+    "Calinski-Harabasz Index": 90.58450865438095
   },
   "Hierarchical (Sentence Embeddings)": {
-    "Silhouette Score": 0.2880653582568053,
-    "Davies-Bouldin Index": 1.1645049559644318,
-    "Calinski-Harabasz Index": 9.876861313536018
+    "Silhouette Score": 0.07404434271699208,
+    "Davies-Bouldin Index": 1.3946045518452068,
+    "Calinski-Harabasz Index": 22.740917781748372
   },
   "Hierarchical (Image Embeddings)": {
-    "Silhouette Score": 0.1039986379522226,
-    "Davies-Bouldin Index": 1.5081427508845187,
-    "Calinski-Harabasz Index": 4.973059246409457
+    "Silhouette Score": -0.03863088882773363,
+    "Davies-Bouldin Index": 2.1057291343029383,
+    "Calinski-Harabasz Index": 28.328230641426664
   }
 }
